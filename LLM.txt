@@ -1,0 +1,94 @@
+# GSAP Documentation Repository - LLM Search Guide
+
+## Repository Overview
+This repository contains 383 comprehensive GSAP (GreenSock Animation Platform) documentation pages extracted from gsap.com. The content is organized by URL taxonomy for efficient navigation and search.
+
+## Content Categories
+
+### 1. Core GSAP Documentation (`docs/v3/`)
+- **GSAP Core**: Animation methods, timeline controls, utility functions
+- **Eases**: CustomEase, CustomBounce, RoughEase, SlowMo, ExpoScaleEase
+- **Plugins**: ScrollTrigger, Draggable, MorphSVG, MotionPath, TextPlugin, etc.
+- **CSS Properties**: Transform shortcuts, CSS variable animation, 3D transforms
+- **Utility Methods**: toArray(), unitize(), wrap(), wrapYoyo()
+
+### 2. Resources & Learning (`resources/`)
+- Getting started guides
+- Best practices and common mistakes
+- ScrollTrigger tips and troubleshooting
+
+## Search Strategies for LLM Agents
+
+### 1. Animation Methods & Properties
+**Query patterns:**
+- "How to animate [property]" → Look in CSS plugin docs
+- "GSAP [method] syntax" → Search core GSAP methods
+- "Transform [property]" → Focus on transform shortcuts (x, y, rotation, scale)
+
+**Examples:**
+- `x`, `y`, `rotation`, `scale` properties
+- `gsap.to()`, `gsap.from()`, `gsap.set()` methods
+- `duration`, `delay`, `ease`, `repeat` parameters
+
+### 2. Plugins & Advanced Features
+**Query patterns:**
+- "[Plugin name] documentation" → Navigate to specific plugin folder
+- "ScrollTrigger [feature]" → Check ScrollTrigger subfolder
+- "SVG animation" → Look for MorphSVG, MotionPath plugins
+
+**Key plugins:**
+- ScrollTrigger: Scroll-driven animations
+- Draggable: Interactive dragging
+- MorphSVG: SVG shape morphing
+- MotionPath: Path-following animations
+- TextPlugin: Text manipulation
+
+### 3. Easing & Timing
+**Query patterns:**
+- "Custom ease" → Check Eases/CustomEase/
+- "Bounce animation" → Look in Eases/CustomBounce/
+- "Ease types" → Browse all Eases subdirectories
+
+### 4. Performance & Best Practices
+**Query patterns:**
+- "GSAP performance" → Check resources/ folder
+- "Best practices" → Look for tips and guides in resources/
+- "Common mistakes" → Search for troubleshooting content
+
+## File Naming Convention
+All files follow the pattern: `[Title]_GSAP_Docs_&_Learning.md`
+
+## Search Tips for AI Agents
+
+1. **Hierarchical Search**: Start with main categories (docs/v3/ or resources/) then drill down
+2. **Property-based Search**: Look for specific CSS properties or GSAP methods
+3. **Use Case Search**: Search by animation type (scroll, hover, entrance, exit)
+4. **Plugin-specific Search**: Navigate directly to plugin folders for specialized features
+5. **Cross-reference**: Many concepts span multiple files - check related folders
+
+## Common Search Scenarios
+
+### Beginner Questions
+- Start with `docs/v3/docsHome_GSAP_Docs_&_Learning.md`
+- Check `resources/get-started/` for tutorials
+
+### Animation Implementation
+- CSS properties: `docs/v3/GSAP/CorePlugins/CSS/`
+- Timeline control: `docs/v3/GSAP/Timeline/`
+- Utility methods: `docs/v3/GSAP/UtilityMethods/`
+
+### Advanced Features
+- Plugin documentation: `docs/v3/Plugins/[PluginName]/`
+- Custom easing: `docs/v3/Eases/Custom*/`
+- Performance optimization: `resources/` folder
+
+### Troubleshooting
+- Common issues: `resources/st-mistakes/`
+- Browser compatibility: Check CSS plugin docs
+- Performance tips: Resources section
+
+## Integration Notes for MCP Server
+- Each markdown file contains source URLs for verification
+- Content includes code examples and interactive demos
+- Files are self-contained with complete context
+- Cross-references maintained through consistent naming
